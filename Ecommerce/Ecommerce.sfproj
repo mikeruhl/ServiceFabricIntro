@@ -29,13 +29,13 @@
     <None Include="Scripts\Deploy-FabricApplication.ps1" />
   </ItemGroup>
   <ItemGroup>
-    <Content Include="packages.config" />
-  </ItemGroup>
-  <ItemGroup>
     <ProjectReference Include="..\Ecommerce.API\Ecommerce.API.csproj" />
     <ProjectReference Include="..\Ecommerce.CheckoutService\Ecommerce.CheckoutService.csproj" />
     <ProjectReference Include="..\ECommerce.ProductCatalog\ECommerce.ProductCatalog.csproj" />
     <ProjectReference Include="..\UserActor\UserActor.csproj" />
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="packages.config" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.Common.targets" />
   <PropertyGroup>
